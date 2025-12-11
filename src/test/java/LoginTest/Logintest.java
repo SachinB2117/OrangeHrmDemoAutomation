@@ -12,14 +12,12 @@ import com.basepackage.baseClass;
 public class Logintest extends baseClass {
 	@BeforeMethod
 	public void setup() {
-		baseClass bs = new baseClass();
-		bs.setUp("chrome");
+		setUp("chrome");
 	}
 	
 	@AfterMethod
 	public void close() {
-		baseClass bs = new baseClass();
-		bs.tearDown();
+		tearDown();
 	}
 	
 	

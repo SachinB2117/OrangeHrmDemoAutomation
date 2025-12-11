@@ -2,33 +2,24 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-12-11T18:43:52 IST" name="Suite" finished-at="2025-12-11T18:43:59 IST" duration-ms="6972">
+  <suite started-at="2025-12-11T19:37:02 IST" name="Default suite" finished-at="2025-12-11T19:37:10 IST" duration-ms="7468">
     <groups>
     </groups>
-    <test started-at="2025-12-11T18:43:52 IST" name="LoginTest" finished-at="2025-12-11T18:43:58 IST" duration-ms="6913">
+    <test started-at="2025-12-11T19:37:02 IST" name="Default test" finished-at="2025-12-11T19:37:10 IST" duration-ms="7468">
       <class name="LoginTest.Logintest">
-        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:LoginTest.Logintest@441772e]" started-at="2025-12-11T18:43:52 IST" name="setUp" finished-at="2025-12-11T18:43:57 IST" duration-ms="5438" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[chrome]]>
-              </value>
-            </param>
-          </params>
+        <test-method is-config="true" signature="setup()[pri:0, instance:LoginTest.Logintest@42e99e4a]" started-at="2025-12-11T19:37:02 IST" name="setup" finished-at="2025-12-11T19:37:08 IST" duration-ms="6283" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method signature="login()[pri:0, instance:LoginTest.Logintest@441772e]" started-at="2025-12-11T18:43:57 IST" name="login" finished-at="2025-12-11T18:43:58 IST" duration-ms="1181" status="PASS">
+        </test-method> <!-- setup -->
+        <test-method signature="login()[pri:0, instance:LoginTest.Logintest@42e99e4a]" started-at="2025-12-11T19:37:08 IST" name="login" finished-at="2025-12-11T19:37:09 IST" duration-ms="941" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- login -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:LoginTest.Logintest@441772e]" started-at="2025-12-11T18:43:58 IST" name="tearDown" finished-at="2025-12-11T18:43:58 IST" duration-ms="251" status="PASS">
+        <test-method is-config="true" signature="close()[pri:0, instance:LoginTest.Logintest@42e99e4a]" started-at="2025-12-11T19:37:09 IST" name="close" finished-at="2025-12-11T19:37:10 IST" duration-ms="208" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- tearDown -->
+        </test-method> <!-- close -->
       </class> <!-- LoginTest.Logintest -->
-    </test> <!-- LoginTest -->
-    <test started-at="2025-12-11T18:43:59 IST" name="Test" finished-at="2025-12-11T18:43:59 IST" duration-ms="1">
-    </test> <!-- Test -->
-  </suite> <!-- Suite -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>
