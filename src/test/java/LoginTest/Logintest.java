@@ -28,6 +28,7 @@ public class Logintest extends baseClass {
 	        driver.findElement(By.name("username")).sendKeys("Admin");
 	        driver.findElement(By.name("password")).sendKeys("admin123");
 	        driver.findElement(By.xpath("//button[@type='submit']")).click();
+	        System.out.println("The login is successfull");
 	        // tearDown() will run automatically after method
 	    }
 }
