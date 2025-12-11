@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-12-11T16:43:34 IST" name="Suite" finished-at="2025-12-11T16:43:43 IST" duration-ms="9626">
+    <groups>
+    </groups>
+    <test started-at="2025-12-11T16:43:34 IST" name="LoginTest" finished-at="2025-12-11T16:43:43 IST" duration-ms="9574">
+      <class name="LoginTest.Logintest">
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:LoginTest.Logintest@7334aada]" started-at="2025-12-11T16:43:34 IST" name="setUp" finished-at="2025-12-11T16:43:41 IST" duration-ms="7700" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="login()[pri:0, instance:LoginTest.Logintest@7334aada]" started-at="2025-12-11T16:43:41 IST" name="login" finished-at="2025-12-11T16:43:43 IST" duration-ms="1578" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:LoginTest.Logintest@7334aada]" started-at="2025-12-11T16:43:43 IST" name="tearDown" finished-at="2025-12-11T16:43:43 IST" duration-ms="255" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- LoginTest.Logintest -->
+    </test> <!-- LoginTest -->
+    <test started-at="2025-12-11T16:43:43 IST" name="Test" finished-at="2025-12-11T16:43:43 IST" duration-ms="1">
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
