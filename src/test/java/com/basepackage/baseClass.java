@@ -12,7 +12,7 @@ import org.testng.annotations.Parameters;
 public class baseClass {
     protected WebDriver driver;
 
-    @BeforeMethod
+    
     @Parameters({"browser"})
     public void setUp(String browser) {
         if (browser == null || browser.isEmpty()) {
@@ -35,7 +35,6 @@ public class baseClass {
         driver.get("https://opensource-demo.orangehrmlive.com/web/index.php/auth/login");
     }
 
-    @AfterMethod
     public void tearDown() {
         if (driver != null) {
             driver.quit();
